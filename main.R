@@ -1,0 +1,7 @@
+library(readr)
+cat("Rolling dice... \n")
+d1 <- sample(6,1)
+cat("Die 1: ", d1, "\n")
+d2 <- sample(6,1)
+cat("Die 2: ", d2, "\n")
+cat("Total Value: ", d1+d2)
