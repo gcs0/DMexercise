@@ -1,4 +1,7 @@
 library(readr)
+cat("What is your name? \n")
+name <- readline(prompt = "")
+cat("Hello, ", name)
 cat("Rolling dice... \n")
 d1 <- sample(6,1)
 cat("Die 1: ", d1, "\n")
