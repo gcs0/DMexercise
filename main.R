@@ -1,4 +1,3 @@
-library(readr)
 cat("What is your name? \n");
 name <- readline(prompt = "");
 cat("Hello, ", name, "\n");
